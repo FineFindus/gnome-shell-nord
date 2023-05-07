@@ -6,8 +6,8 @@
    height="24"
    id="svg3199"
    version="1.1"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   sodipodi:docname="checkbox-off-focused-dark.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   sodipodi:docname="checkbox-off-focused-light.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -158,8 +158,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="11.313708"
-     inkscape:cx="12.374369"
-     inkscape:cy="8.8388348"
+     inkscape:cx="12.241787"
+     inkscape:cy="8.8388352"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -173,7 +173,8 @@
      inkscape:snap-nodes="false"
      inkscape:snap-bbox="true"
      showborder="true"
-     inkscape:pagecheckerboard="0">
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#a2a2a2">
     <inkscape:grid
        type="xygrid"
        id="grid14843"
@@ -205,7 +206,7 @@
        height="18"
        width="18"
        id="rect11803"
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;stroke:#282828;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.15000001;marker:none;enable-background:accumulate"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;stroke:#3c6161;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.14901961;marker:none;enable-background:accumulate;opacity:1"
        ry="3" />
     <rect
        rx="5"
@@ -214,7 +215,7 @@
        height="22"
        width="22"
        id="rect2437"
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;stroke:#3584e4;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.35;marker:none;enable-background:accumulate"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;stroke:#8fbcbb;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.34901962;marker:none;enable-background:accumulate"
        ry="5" />
   </g>
 </svg>
