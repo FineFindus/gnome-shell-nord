@@ -1,40 +1,21 @@
-# GNOME Shell
-GNOME Shell provides core user interface functions for the GNOME desktop,
-like switching to windows and launching applications. GNOME Shell takes
-advantage of the capabilities of modern graphics hardware and introduces
-innovative user interface concepts to provide a visually attractive and
-easy to use experience.
+## Nord Gnome Shell Fork
 
-For more information about GNOME Shell, including instructions on how
-to build GNOME Shell from source and how to get involved with the project,
-see the [project wiki][project-wiki].
+This is a fork of the Gnome Shell desktop environment that applies the Nord theme. Nord is an arctic, north-bluish color palette that is known for its pleasing aesthetics and calming effect.
 
-Bugs should be reported to the GNOME [bug tracking system][bug-tracker].
-Please refer to the [*Schedule* wiki page][schedule] to see the supported versions.
+![Preview of the desktop](https://user-images.githubusercontent.com/63370021/236697147-097cdba4-b501-4d5e-9d3d-bf04a8fbcc7e.png)
 
-## Contributing
 
-To contribute, open merge requests at https://gitlab.gnome.org/GNOME/gnome-shell.
+### Installation
+While it would be possible to compile and install the whole shell, it is only necessary to compile the CSS code for it. This requires the sass compiler to be installed.
 
-Commit messages should follow the [GNOME commit message
-guidelines](https://wiki.gnome.org/Git/CommitMessages). If a merge request
-fixes an existing issue, it is good practice to append the full issue URL
-to each commit message. Try to always prefix commit subjects with a relevant
-topic, such as `panel:` or `status/network:`, and it's always better to write
-too much in the commit message body than too little.
-
-## Default branch
-
-The default development branch is `main`. If you still have a local
-checkout under the old name, use:
+1. Clone the `data/theme` directory to your local machine.
+2. Run the compiler to compile the Sass code to a single CSS file
 ```sh
-git checkout master
-git branch -m master main
-git fetch
-git branch --unset-upstream
-git branch -u origin/main
-git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+sassc -M  data/theme/gnome-shell.scss gnome-shell.css
 ```
+3. Create a new shell theme in in your themes directory (e.g. `~/.themes`) with a `gnome-shell` and a `gnome-shell/assets` directory
+4. Move the `svg` files into the asset dierectory and the `gnome-shell.css` into `gnome-shell`.
+5. Apply the theme via Tweaks.
 
 ## License
 GNOME Shell is distributed under the terms of the GNU General Public License,
